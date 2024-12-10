@@ -1,11 +1,86 @@
-{"users": [
-    
+{
+  "exhibitions": [
+    {
+      "id": 1,
+      "name": "卡斯伯伯人像攝影展",
+      "description": "這是卡斯伯伯 2023 年的個人影像攝影展",
+      "startDate": "2023-11-01",
+      "endDate": "2023-11-10",
+      "area": "高雄",
+      "price": 200
+    },
+    {
+      "id": 2,
+      "name": "六角藝術展",
+      "description": "六角一年一度藝術展開幕囉！",
+      "startDate": "2023-03-31",
+      "endDate": "2023-12-31",
+      "area": "高雄",
+      "price": 250
+    },
+    {
+      "id": 3,
+      "name": "洧小杰個人藝術展",
+      "description": "當代藝術新生代個人美術展即將開跑",
+      "startDate": "2023-11-01",
+      "endDate": "2023-11-20",
+      "area": "台北",
+      "price": 500
+    }
   ],
-  "posts": [
-    { "id": 1, "title": "json-server0915", "author": "typicode" }
+  "news": [
+    {
+      "id": 1,
+      "exhibitionId": 1,
+      "title": "卡斯伯伯攝影展：一日特別體驗活動",
+      "content": "為了回饋粉絲的熱情支持，卡斯伯伯人像攝影展將於 2023-11-05 舉辦特別體驗活動，參與者有機會與卡斯伯伯本人交流，並享有專業導覽。名額有限，先到先得。"
+    },
+    {
+      "id": 2,
+      "exhibitionId": 2,
+      "title": "六角藝術展：藝術家即場創作展示",
+      "content": "六角藝術展將於 2023-12-01 舉辦特別活動，邀請數位知名藝術家現場進行藝術創作，觀眾將有機會見證藝術從零到有的過程，並可參與互動提問。"
+    },
+    {
+      "id": 3,
+      "exhibitionId": 3,
+      "title": "洧小杰個人藝術展：特邀學校團體免費入場",
+      "content": "為了推廣當代藝術教育，洧小杰的藝術展決定於 2023-11-10 那天，特邀全台學校師生團體免費入場，並提供專業解說。學校可提前預約名額。"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "orders": [
+    {
+      "exhibitionId": 1,
+      "status": "已付款",
+      "userId": "1",
+      "id": 4
+    },
+    {
+      "exhibitionId": 2,
+      "status": "未付款",
+      "userId": "1",
+      "id": 5
+    },
+    {
+      "exhibitionId": 3,
+      "status": "未付款",
+      "userId": "1",
+      "id": 6
+    }
   ],
-  "profile": { "name": "typicode" }
+  "favorites": [
+    {
+      "exhibitionId": 3,
+      "userId": "1",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "test1@gmail.com",
+      "password": "$2a$10$nvmuXHTJibomRm/vdx1j6OrftYIm2vS..PO8h3fzh/yRgMCSZl57C",
+      "name": "陳大華",
+      "id": 1
+    }
+  ]
 }
