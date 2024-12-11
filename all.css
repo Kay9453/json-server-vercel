@@ -1,0 +1,18 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    white-space: nowrap; 
+}
